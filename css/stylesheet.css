@@ -228,11 +228,14 @@ hr{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.footer-left, .footer-right{
-    flex-basis: 45%;
-    padding: 10px;
+.footer-left, .footer-right, .footer-center{
+    flex-basis: 33.333333333%;
     margin-bottom: 20px;
 
+}
+.footer-center{
+    display: flex;
+    justify-content: center;
 }
 .footer-right{
     text-align: right;
